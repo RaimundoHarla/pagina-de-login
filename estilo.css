@@ -17,10 +17,14 @@ header {
     margin-bottom: 20px;
 }
 header img {
+    width: 50px;
     margin-bottom: 0;
 }
+section img {
+    margin-right: 5px;
+}
 main {
-    background-color: #091366;
+    background-color: #752EE8;
     padding: 30px 20px;
     border-radius: 15px;
     width: 300px;
@@ -47,23 +51,26 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
     cursor: pointer;
+}
+a {
+    text-decoration: none;
 }
 form input[type="email"],
 form input[type="password"] {
     width: 100%;
     padding: 10px;
-    margin-top: 0;
-    margin-bottom: 15px;
     border: none;
     border-radius: 8px;
+    color: #fff;
+    background-color: #171717;
 }
 form input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #ccc;
-    color: #333;
+    margin-top: 25px;
+    background-color: #35DB63;
+    color: white;
     border: none;
     border-radius: 20px;
     font-weight: bold;
@@ -72,4 +79,12 @@ form input[type="submit"] {
 form label {
     text-align: left;
     display: block;
+}
+#email::placeholder
+{
+    text-align: center;
+}
+#senha::placeholder
+{
+    text-align: center;
 }
